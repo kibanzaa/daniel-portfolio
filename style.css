@@ -1,0 +1,91 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white ;
+  }
+  
+  .resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 2rem auto;
+    background: rgb(245, 235, 220);
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha)
+  }
+  
+  .sidebar {
+    background: #C8B08E;
+    color: #191970;
+    width: 40%;
+    padding: 2rem 1rem;
+  } 
+  .profile-pic img {
+    width: 180px;
+    height: 180px;
+    border-radius: 80%;
+    border: 10px solid white;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  .sidebar h2 {
+    background: #494646;
+    color: rgb(212, 223, 221);
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    margin-right: -17px;
+  }
+  .heading::left{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #d1d6d4;
+    left: 100%;
+    top: 0px;
+    transform: rotate(56deg);
+    z-index: -1;
+  } 
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 0.5rem 0;
+  }
+  
+  .loisirs li span {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: #cecbcb;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .main-content {
+    padding: 2rem;
+    width: 70%;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .header p {
+    color:#9ca42d ;
+    font-weight: bolder;
+  }
+  
+  .main-content section {
+    margin-top: 50px;
+  }
+  
+  .main-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #C8B08E;
+    padding-bottom: 0,25rem;
+  }
